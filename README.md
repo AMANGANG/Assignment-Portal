@@ -32,37 +32,37 @@ git clone https://github.com/your-username/assignment-portal.git
 cd assignment-portal
 
 ##Install Dependencies
-npm install
+- npm install
 
 ##Set Up Environment Variables
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/assignment-portal  # Update this with your MongoDB URI (e.g., MongoDB Atlas)
-JWT_SECRET=your-secret-key  # You can use a random string here
+- PORT=5000
+- MONGO_URI=mongodb://localhost:27017/assignment-portal  # Update this with your MongoDB URI (e.g., MongoDB Atlas)
+- JWT_SECRET=your-secret-key  # You can use a random string here
 
 ##Run the Server
-npm start
+- npm start
 
 ##File Structure
-assignment-portal/
-│
-├── controllers/              # Controllers for user and admin logic
-│   ├── adminController.js
-│   └── userController.js
-│
-├── models/                   # MongoDB models
-│   ├── Admin.js
-│   ├── User.js
-│   └── Assignment.js
-│
-├── routes/                   # API route definitions
-│   ├── adminRoutes.js
-│   └── userRoutes.js
-│
-├── middleware/               # Middleware (authentication)
-│   └── authMiddleware.js
-│
-├── .env                      # Environment variables (for local setup)
-├── .gitignore                # Git ignore file
-├── package.json              # Project metadata and dependencies
-├── README.md                 # Project documentation
-└── server.js                 # Main entry point for the application
+- assignment-portal/
+- │
+- ├── controllers/              # Controllers for user and admin logic
+- │   ├── adminController.js
+- │   └── userController.js
+- │
+- ├── models/                   # MongoDB models
+- │   ├── Admin.js
+- │   ├── User.js
+- │   └── Assignment.js
+- │
+- ├── routes/                   # API route definitions
+- │   ├── adminRoutes.js
+- │   └── userRoutes.js
+- │ 
+- ├── middleware/               # Middleware (authentication)
+- │   └── authMiddleware.js
+- │
+- ├── .env                      # Environment variables (for local setup)
+- ├── .gitignore                # Git ignore file
+= ├── package.json              # Project metadata and dependencies
+= ├── README.md                 # Project documentation
+= └── server.js                 # Main entry point for the application
