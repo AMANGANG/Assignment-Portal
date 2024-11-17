@@ -63,6 +63,6 @@ cd assignment-portal
 - │
 - ├── .env                      # Environment variables (for local setup)
 - ├── .gitignore                # Git ignore file
-= ├── package.json              # Project metadata and dependencies
-= ├── README.md                 # Project documentation
-= └── server.js                 # Main entry point for the application
+- ├── package.json              # Project metadata and dependencies
+- ├── README.md                 # Project documentation
+- └── server.js                 # Main entry point for the application
